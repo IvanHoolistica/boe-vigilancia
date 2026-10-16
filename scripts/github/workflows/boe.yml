@@ -1,7 +1,7 @@
 name: BOE diario
 on:
   schedule:
-    - cron: "0 8 * * *"   # 08:00 UTC cada día
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       fecha:
